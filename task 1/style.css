@@ -1,0 +1,67 @@
+body{
+    font-family: latha;
+    color: white;
+   background: fixed
+   ,url(assets/travel.avif);
+    background-size: cover;
+}
+.box{
+    width: 900px;
+    float: right;
+    border: 1px solid rgb(0, 0, 0);
+}
+.box ul li{
+    width: 150px;
+    float: left;
+    margin: 10px auto;
+    text-align: center;
+}
+.box ul li a{text-decoration: none; color: black;}
+.box ul li :hover{background-color: green;}
+.box ul li a:hover{color: white;}
+.wd{
+    width: 240px;
+    height: 500px;
+    background-color: black;
+    opacity: 0.7;
+    padding: 78px;
+}
+.wd h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 100px;
+}
+.wd h2{
+    text-align: justify;
+    color: rgba(209,197,197);
+    font-size: normal;
+}
+.wd h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+.opt from,input[type="button"]{
+    background-color: #0c0000;
+    color: white;
+
+    padding: 13px;
+    margin: 10px auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+footer{
+    background-color: black;
+    opacity: 0.9;
+    height: auto;
+    width: auto;
+    padding: 23px;
+    margin: auto;
+}
+.footer-container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+.footer-container h3{
+    text-align: center;
+}
